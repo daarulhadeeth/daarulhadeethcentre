@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +20,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hamburger {
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  background-color: #000;
+  top: 30px;
+  right: 15px;
+  display: flex;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  background-color: inherit;
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  top: -7px;
+}
+
+.hamburger::after {
+  top: 7px;
+}
+
+.toggler {
+  width: 25px;
+  height: 25px;
+  top: 20px;
+  right: 15px;
+  position: fixed;
+  background-color: #ccc;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;
 }
