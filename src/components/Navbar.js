@@ -9,8 +9,6 @@ function Navbar() {
         <Link to="/information">Information</Link>
         <Link to="/registration">Registration</Link>
         <Link to="/classes">Classes</Link>
-        <Link to="/examinations">Examinations</Link>
-        <Link to="/contact">Contact</Link>
       </ul>
       <span className="hamburger" />
       <div className="toggler" />

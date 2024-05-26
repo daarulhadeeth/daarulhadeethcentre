@@ -21,7 +21,7 @@ function Faqs() {
   }, [location.state?.scrollToFAQs]);
 
   return (
-    <section className="p-8 bg-[#f0f7f0]" name="faqs">
+    <section className="p-3 bg-[#f0f7f0]" name="faqs">
       <SlideIn from="top" classNames="text-center">
         <h2 className="font-extrabold mb-4 ">FAQs</h2>
       </SlideIn>
@@ -31,7 +31,7 @@ function Faqs() {
         </p>
       </SlideIn>
       <SlideIn from="right" classNames="text-center">
-        <ul className="mx-auto w-full rounded-2xl bg-white p-6">
+        <ul className="mx-auto w-full rounded-2xl bg-white p-3">
           {tempFaq.map((item, id) => (
             <Disclosure key={id}>
               {({ open }) => (
