@@ -1,4 +1,3 @@
-import './App.css';
 import {
   Routes,
   Route,
@@ -22,6 +21,7 @@ function App() {
         <Route path="/classes" element={<Classes />} />
         <Route path="/examinations" element={<Examinations />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*">"404 Not Found"</Route>
       </Routes>
     </div>
   );
