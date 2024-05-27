@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaPlus , FaMinus } from 'react-icons/fa6';
+import { FaPlus, FaMinus } from 'react-icons/fa6';
 
 function Togglegg({ data }) {
   const [selected, setSelected] = useState(null);
@@ -25,6 +25,7 @@ function Togglegg({ data }) {
               </span>
               {' '}
             </div>
+            <div className="p-2">
               {selected === id && (
                 <ul>
                   {item.courses.map((course) => (
@@ -34,13 +35,9 @@ function Togglegg({ data }) {
                       </a>
                     </li>
                   ))}
-                  <li>
-                    <button>
-                      <a href={item.link}>open</a>
-                    </button>
-                  </li>
                 </ul>
               )}
+            </div>
           </li>
         ))}
       </ul>

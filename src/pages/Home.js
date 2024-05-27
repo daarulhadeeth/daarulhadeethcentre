@@ -1,11 +1,11 @@
 import React from 'react';
 import Faqs from '../components/Faqs';
-import ClassSection from '../components/ClassSection.';
+import Showcase from '../components/Showcase';
 
 function Home() {
   return (
     <>
-      <div>Home</div>
+      <Showcase />
       <Faqs />
     </>
 

@@ -9,6 +9,9 @@ function Faq() {
   return (
     <>
       <Togglegg data={intermediateOneData} />
+      <Togglegg data={intermediateTwoData} />
+      <Togglegg data={advanceOneData} />
+      <Togglegg data={advanceTwoData} />
     </>
   );
 }

@@ -2,27 +2,31 @@ const intermediateOneData = [
   {
     id: 1,
     subject: 'Shariah',
-    link: 'https://drive.google.com/drive/folders/1tjWW-HHMOieTp35aUMIvp1nb1uob1S7X',
     courses: [
       {
         id: 1,
-        course: 'Aqeedah'
+        course: 'Aqeedah',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
       {
         id: 2,
-        course: 'Fiqh'
+        course: 'Fiqh',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
       {
         id: 3,
-        course: 'Tajweed'
+        course: 'Tajweed',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
       {
         id: 4,
-        course: 'Seeroh'
+        course: 'Seeroh',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
       {
         id: 5,
-        course: ' Tafseer'
+        course: ' Tafseer',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
     ],
   },
@@ -32,11 +36,13 @@ const intermediateOneData = [
     courses: [
       {
         id: 1,
-        course: 'Arabic'
+        course: 'Arabic',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
       {
         id: 2,
-        course: 'English'
+        course: 'English',
+        link: 'https://drive.google.com/drive/folders/1tITLJ1ul9lA40OHSUoJ9qAl7_-lmj119',
       },
     ],
   },
