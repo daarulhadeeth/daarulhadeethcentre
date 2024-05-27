@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Information from './pages/Information';
 import Registration from './pages/Registration';
-import Classes from './pages/Classes';
+import Auth from './pages/Auth';
 import Examinations from './pages/Examinations';
 import Contact from './pages/Contact';
 
@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/information" element={<Information />} />
         <Route path="/registration" element={<Registration />} />
-        <Route path="/classes" element={<Classes />} />
+        <Route path="/classes" element={<Auth />} />
         <Route path="/examinations" element={<Examinations />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*">"404 Not Found"</Route>

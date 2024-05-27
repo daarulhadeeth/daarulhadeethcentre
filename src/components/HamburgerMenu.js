@@ -13,25 +13,25 @@ const HamburgerMenu = () => {
   };
 
   return (
-  <>
-   <div className="logo">
+    <>
+      <div className="logo">
         <img src="/logo.jpg" alt="Website Logo" />
       </div>
-    <nav>
-    <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
-      <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-      <li><Link to="/information" onClick={closeMenu}>Information</Link></li>
-      <li><Link to="/registration" onClick={closeMenu}>Registration</Link></li>
-      <li><Link to="/classes" onClick={closeMenu}>Classes</Link></li>
-    </ul>
-    <div className="menu-icon" onClick={toggleMenu}>
-      <div className={`bar ${isOpen ? 'open' : ''}`} />
-      <div className={`bar ${isOpen ? 'open' : ''}`} />
-      <div className={`bar ${isOpen ? 'open' : ''}`} />
-    </div>
-  </nav>
-  </>
-    
+      <nav>
+        <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/information" onClick={closeMenu}>Information</Link></li>
+          <li><Link to="/registration" onClick={closeMenu}>Registration</Link></li>
+          <li><Link to="/classes" onClick={closeMenu}>Classes</Link></li>
+        </ul>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <div className={`bar ${isOpen ? 'open' : ''}`} />
+          <div className={`bar ${isOpen ? 'open' : ''}`} />
+          <div className={`bar ${isOpen ? 'open' : ''}`} />
+        </div>
+      </nav>
+    </>
+
   );
 };
 

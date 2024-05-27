@@ -8,6 +8,7 @@ import advanceTwoData from '../data/advance-two';
 function Faq() {
   return (
     <>
+      <h2 className="text-2xl font-semibold mb-4 text-center">(مرحبا)</h2>
       <Togglegg data={intermediateOneData} />
       <Togglegg data={intermediateTwoData} />
       <Togglegg data={advanceOneData} />
