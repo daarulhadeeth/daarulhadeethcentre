@@ -19,6 +19,7 @@ const WhatsAppForm = () => {
         <label className="block text-left mb-2">Email:</label>
         <input
           type="email"
+          placeholder="user@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"

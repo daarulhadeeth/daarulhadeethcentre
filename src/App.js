@@ -4,7 +4,6 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Information from './pages/Information';
 import Registration from './pages/Registration';
 import Auth from './pages/Auth';
 import Examinations from './pages/Examinations';
@@ -16,7 +15,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/information" element={<Information />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/classes" element={<Auth />} />
         <Route path="/examinations" element={<Examinations />} />

@@ -1,40 +1,39 @@
 const tempFaq = [
   {
+    id: 0,
+    question: "What courses do you offer?",
+    answer: "We offer a variety of courses including Sorf, Nahu, Mahfudho, Adabul Arobiy, Ilmu Aruud, Maqomatul Hariri, Matnul Lugho, Balagoh wa Nusuus, Fiqh, Usulul Fiqh, Ilmul Qur'an, Tafseer, Usulu Tafseer, Mustolahul Hadith, Dirosatul Asaanid, and Al-Aqeedah."
+  },
+  {
     id: 1,
-    question: 'What is the Muslim Student Society of Nigeria (MSSN) Akinyele?',
+    question: 'What is the duration of each course?',
     answer:
-      'The Muslim Student Society of Nigeria (MSSN) Akinyele is a vibrant and inclusive student organization dedicated to serving the needs of Muslim students. Our mission is to foster a sense of community, promote Islamic values, and provide opportunities for personal and spiritual growth.',
+      'The duration of each course varies. Typically, our courses range from 4 weeks to 12 weeks depending on the subject matter and level of difficulty.',
   },
   {
     id: 2,
-    question: 'How can I get involved with MSSN Akinyele?',
+    question: 'Are there any prerequisites for enrolling in the courses?',
     answer:
-      'Getting involved with MSSN Akinyele is easy! We welcome new members and volunteers. You can join our events, attend our meetings, or reach out to our executive members to express your interest. We believe in creating a warm and welcoming community for everyone.',
+      'Some advanced courses may have prerequisites. Please check the course descriptions for specific requirements.',
   },
   {
     id: 3,
-    question: 'What types of events does MSSN Akinyele organize?',
+    question: 'What is the mode of instruction?',
     answer:
-      'MSSN Akinyele organizes a variety of events throughout the year. These include religious lectures, community service activities, cultural celebrations, and social gatherings. We aim to provide a diverse range of opportunities for our members to engage with each other and the community.',
+      'Our courses are offered online. You can choose the mode of instruction that best suits your schedule and learning preferences.',
   },
   {
     id: 4,
-    question: 'Is MSSN Akinyele only for Nigerian students?',
+    question: 'Can I get a certificate after completing a course?',
     answer:
-      'No, MSSN Akinyele is open to students of all backgrounds and nationalities. While we are rooted in the Nigerian Muslim community, our organization is inclusive and welcomes members from diverse backgrounds. We believe in fostering unity and understanding among all students.',
+      'Yes, upon successful completion of a course, you will receive a certificate of completion.',
   },
   {
     id: 5,
-    question: 'How can I stay updated on MSSN Akinyele events and activities?',
+    question: 'What is your refund policy?',
     answer:
-      'To stay informed about MSSN Akinyele events and activities, you can follow our social media pages, join our mailing list, or attend our regular meetings. We regularly share updates on upcoming events, guest speakers, and community initiatives. Stay connected to be part of our vibrant community!',
-  },
-  {
-    id: 6,
-    question: 'Can non-Muslims participate in MSSN Akinyele events?',
-    answer:
-      'Yes, non-Muslims are welcome to participate in MSSN Akinyele events. Our organization values diversity and encourages an inclusive environment. Everyone, regardless of their religious background, is invited to join us, learn more about Islam, and engage in meaningful conversations.',
-  },
+      'We offer a full refund if you cancel your enrollment within the first week of the course. After the first week, refunds are not available.',
+  }
 ];
 
 export default tempFaq;

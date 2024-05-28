@@ -20,7 +20,6 @@ const HamburgerMenu = () => {
       <nav>
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
           <li><Link to="/" onClick={closeMenu}>Home</Link></li>
-          <li><Link to="/information" onClick={closeMenu}>Information</Link></li>
           <li><Link to="/registration" onClick={closeMenu}>Registration</Link></li>
           <li><Link to="/classes" onClick={closeMenu}>Classes</Link></li>
         </ul>

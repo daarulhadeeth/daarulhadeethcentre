@@ -1,14 +1,17 @@
 import React from 'react';
 import Faqs from '../components/Faqs';
 import Info from '../components/Info';
-import Showcase from '../components/Showcase';
+import images from '../components/images';
+import ImageSlider from './ImageSlider';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
     <>
       <Info />
-      <Showcase />
+      <ImageSlider images={images} />
       <Faqs />
+      <Footer />
     </>
 
   );

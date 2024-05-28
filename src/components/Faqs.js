@@ -27,7 +27,7 @@ function Faqs() {
       </SlideIn>
       <SlideIn from="left" classNames="text-center">
         <p className="text-base sm:text-xl mb-8">
-          Find answers to commonly asked questions about our society.
+          Find answers to commonly asked questions about our Institute.
         </p>
       </SlideIn>
       <SlideIn from="right" classNames="text-center">
