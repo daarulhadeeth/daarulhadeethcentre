@@ -21,7 +21,7 @@ function Showcase() {
               <br />
               {' '}
               <Writer
-                texts={['Daaru-l-hadeeth', 'دار الحديث', 'Institute of Hadeeth']}
+                texts={['Daaru-l-hadeeth', 'دار الحديث']}
                 wrapperClassName={styles.highlight}
               />
               <br />
@@ -29,7 +29,7 @@ function Showcase() {
               Center
             </h1>
             <h2 className="text-lg text-center">
-              for Islamic and technical studies
+              for Islamic and Technical Studies
             </h2>
             <br />
           </SlideIn>

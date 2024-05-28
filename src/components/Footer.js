@@ -12,7 +12,7 @@ const Footer = () => (
         <div className="text-sm">
           <p className="flex items-center mb-2">
             <FaPhone className="h-5 w-5 mr-2" />
-            <span>+234 807 330 2821</span>
+            <span className='text-xs sm:text-sm'>+234 902 409 2654, +234 805 095 9967, +234 706 556 5254</span>
           </p>
           <p className="flex items-center mb-2">
             <MdMarkEmailRead className="h-5 w-5 mr-2" />
@@ -27,12 +27,12 @@ const Footer = () => (
           </p>
           <p className="flex items-center mb-2">
             <MdLocationPin className="h-5 w-5 mr-2" />
-            <span> FW35+XQ3, 12 Orogun Rd, 200132, Ibadan, Oyo State</span>
+            <span>Luth Estate Tigbo Ilu Area, Iyana Ilogbo, Ogun State, Nigeria</span>
           </p>
           <p className="flex items-center">
             <FaFacebookF className="h-5 w-5 mr-2" />
-            <Link to="https://web.facebook.com/MSSNAAC/" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-gray-300">
-              Facebook
+            <Link to="https://www.facebook.com/profile.php?id=100086708090259" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-gray-300">
+              Daarul Hadeeth
             </Link>
           </p>
         </div>
