@@ -13,7 +13,6 @@ function Togglegg({ data }) {
     setSelected(i);
   };
 
-  data = ['Intermediate Level One', 'Intermediate Level 2', 'Advance Level 1', 'Advance Level 2'  ]
 
   return (
     <section className="p-6 bg-gray-100 rounded-md shadow-lg">
@@ -21,7 +20,7 @@ function Togglegg({ data }) {
       <h2 className="text-center font-extrabold text-2xl mb-6">
         Section
       </h2>
-      <ul className="bg-white rounded-md shadow-md p-4">1
+      <ul className="bg-white rounded-md shadow-md p-4">
         {data.map((item, id) => (
           <li key={item.id} className="border-b-2 px-4 py-2 mb-4 last:border-b-0">
             <div
