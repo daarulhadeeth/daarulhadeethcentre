@@ -32,7 +32,7 @@ const Footer = () => (
           <p className="flex items-center">
             <FaFacebookF className="h-5 w-5 mr-2" />
             <Link to="https://www.facebook.com/profile.php?id=100086708090259" target="_blank" rel="noopener noreferrer" className="text-white underline hover:text-gray-300">
-              Facebook
+              Daarul Hadeeth
             </Link>
           </p>
         </div>
