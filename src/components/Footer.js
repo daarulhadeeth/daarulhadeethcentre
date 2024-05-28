@@ -12,7 +12,7 @@ const Footer = () => (
         <div className="text-sm">
           <p className="flex items-center mb-2">
             <FaPhone className="h-5 w-5 mr-2" />
-            <span>+234 902 409 2654, +234 805 095 9967, +234 706 556 5254</span>
+            <span className='text-xs'>+234 902 409 2654, +234 805 095 9967, +234 706 556 5254</span>
           </p>
           <p className="flex items-center mb-2">
             <MdMarkEmailRead className="h-5 w-5 mr-2" />
@@ -27,7 +27,7 @@ const Footer = () => (
           </p>
           <p className="flex items-center mb-2">
             <MdLocationPin className="h-5 w-5 mr-2" />
-            <span> FW35+XQ3, Oke osa, Area 2, Iyana , Ogun State</span>
+            <span>Luth Estate Tigbo Ilu Area, Iyana Ilogbo, Ogun State, Nigeria</span>
           </p>
           <p className="flex items-center">
             <FaFacebookF className="h-5 w-5 mr-2" />

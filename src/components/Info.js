@@ -21,7 +21,7 @@ function Showcase() {
               <br />
               {' '}
               <Writer
-                texts={['Daaru-l-hadeeth', 'دار الحديث', 'Institute of Hadeeth']}
+                texts={['Daaru-l-hadeeth', 'دار الحديث']}
                 wrapperClassName={styles.highlight}
               />
               <br />
